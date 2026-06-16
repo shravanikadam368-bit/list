@@ -1,0 +1,32 @@
+#Append
+fruits = ["Apple", "Mango"]
+fruits.append("Banana")
+print(fruits)
+
+#Insert Element
+fruits = ["Apple", "Banana"]
+fruits.insert(1, "Mango")
+print(fruits)
+
+#Remove Element
+fruits = ["Apple", "Mango", "Banana"]
+fruits.remove("Mango")
+print(fruits)
+
+#Remove by Index
+fruits = ["Apple", "Mango", "Banana"]
+fruits.pop(1)
+print(fruits)
+
+#Reverse List
+numbers = [10, 20, 30, 40]
+numbers.reverse()
+print(numbers)
+
+#Count Element
+numbers = [10, 20, 10, 30, 10]
+print(numbers.count(10))
+
+#Length of List
+fruits = ["Apple", "Mango", "Banana"]
+print(len(fruits))
