@@ -1,0 +1,18 @@
+#access list
+fruits = ["Apple", "Mango", "Banana"]
+
+print(fruits[0])
+print(fruits[1])
+
+
+#add item in list
+fruits = ["Apple", "Mango"]
+
+fruits.append("Banana")
+
+print(fruits)
+
+#remove items in list
+fruits = ["Apple", "Mango", "Banana"]
+fruits.remove("Mango")
+print(fruits)
